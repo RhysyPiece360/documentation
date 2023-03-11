@@ -4,7 +4,7 @@ sidebar_position: 1
 
 How to make a request towards our api,
 
-example in python
+Example in python
 ```
 import requests
 
@@ -31,3 +31,4 @@ else:
     print(f"Failed to get a valid answer. Status code: {response.status_code}")
 
 ```
+this program adds the ability to type a question, passes it to our api which then in return sends the output back to you
